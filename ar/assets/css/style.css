@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+body{
+  direction: rtl;
+}
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(68, 134, 255, 0.5);
@@ -104,14 +106,16 @@
     transform: scaleX(1); } }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Almarai', sans-serif;
   overflow-x: hidden; }
 
 html {
   scroll-behavior: smooth; }
 
 h1, h2, h3 {
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: 'Almarai', sans-serif;
+  letter-spacing: -1px;
+}
 
 a {
   display: inline-block;
@@ -177,7 +181,7 @@ a {
   background: linear-gradient(45deg, rgba(255, 175, 54, 0.81), #c8842c);
   color: #fff;
   border-radius: 25px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Almarai', sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
@@ -256,7 +260,7 @@ a {
         display: flex; }
         .header .top-header .top-left ul li {
           list-style: none;
-          margin-right: 30px; }
+          margin-left: 30px; }
           .header .top-header .top-left ul li:last-child {
             margin-right: 0; }
           .header .top-header .top-left ul li a {
@@ -265,7 +269,7 @@ a {
             color: #000; }
             .header .top-header .top-left ul li a i {
               color: #01033E;
-              margin-right: 5px; }
+              margin-left: 5px; }
             .header .top-header .top-left ul li a:hover {
               color: #01033E; }
     .header .top-header .top-right {
@@ -292,7 +296,7 @@ a {
         border-radius: 50%;
         margin: 0 5px; }
         .header .top-header .top-right a:last-child {
-          margin-right: 0; }
+          margin-left: 0; }
         .header .top-header .top-right a:hover {
           -webkit-box-shadow: 0px 0px 10px 2px rgba(200, 132, 44, 0.5);
           box-shadow: 0px 0px 10px 2px rgba(200, 132, 44, 0.5); }
@@ -325,7 +329,7 @@ a {
             content: "";
             position: absolute;
             bottom: 0;
-            left: 0;
+            right: 0;
             width: 0;
             height: 2px;
             background: #F9A936;
@@ -531,7 +535,7 @@ a {
       text-transform: capitalize;
       color: #01033E;
       margin-top: -5px;
-      margin-bottom: -15px; }
+      margin-bottom: -7px; }
     .banner .banner-txt p {
       font-size: 18px;
       line-height: 30px;
@@ -1191,7 +1195,7 @@ a {
           color: #fff;
           margin-bottom: 10px; }
         .portfolio .items .item .part-txt h3, .portfolio .all-items .item .part-txt h3 {
-          font-family: "Open Sans", sans-serif;
+          font-family: 'Almarai', sans-serif;
           font-size: 20px;
           line-height: 30px;
           font-weight: 700;
@@ -1683,7 +1687,7 @@ a {
         margin-bottom: 20px; }
         .faq .part-txt .accordion .card .card-header h3 {
           display: inline-block;
-          font-family: "Open Sans", sans-serif;
+          font-family: 'Almarai', sans-serif;
           font-size: 20px;
           font-weight: 600;
           text-transform: capitalize;
@@ -2142,7 +2146,7 @@ a {
           transition: 0.4s;
           z-index: -1; }
       .blog .blog-d .part-txt h3 {
-        font-family: "Open Sans", sans-serif;
+        font-family: 'Almarai', sans-serif;
         font-size: 22px;
         line-height: 32px;
         font-weight: 700;
@@ -2150,7 +2154,7 @@ a {
         color: #01033E;
         margin-bottom: 15px; }
       .blog .blog-d .part-txt p {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 30px;
         margin-bottom: 14px; }
     .blog .blog-d:hover {
@@ -2434,6 +2438,8 @@ a {
       align-items: center; }
       .footer .copyright .part-txt p {
         font-size: 15px;
+        direction: ltr;
+        text-align: right;
         font-weight: 600;
         text-transform: capitalize;
         color: #fff;
@@ -2934,7 +2940,7 @@ a {
     box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.1);
     border-radius: 20px; }
     .blogs .main-content .blog-comments .post-comment h4 {
-      font-family: "Josefin Sans", sans-serif;
+      font-family: 'Almarai', sans-serif;
       font-size: 25px;
       font-weight: 600;
       text-transform: capitalize;
@@ -3205,7 +3211,7 @@ a {
     text-align: center; }
     .error .part-txt h2 {
       display: inline-block;
-      font-family: "Open Sans", sans-serif;
+      font-family: 'Almarai', sans-serif;
       font-size: 60px;
       font-weight: 800;
       color: transparent;
@@ -3229,7 +3235,7 @@ a {
       border-radius: 50%;
       background: #F9A936;
       color: #fff;
-      margin-right: 10px;
+      margin-left: 10px;
     }
 .contact-list li:not(:last-child){
   margin-bottom: 15px;
@@ -3253,7 +3259,6 @@ ul.contact-list{
   height: 400px;
   width: auto !important;
   margin-top: 30px;
-
 }
 @media (max-width: 991px) {
   .blog-d  .part-img img{
