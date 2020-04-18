@@ -2103,7 +2103,12 @@ a {
       width: 100%; }
     .blog .blog-d .part-txt {
       padding: 25px 35px;
+      height: 283px;
       position: relative; }
+.blog .blog-d .part-txt .my-btn{
+  position: absolute;
+  bottom: 25px;
+}
       .blog .blog-d .part-txt .date {
         position: absolute;
         bottom: calc(100% - 91px);
